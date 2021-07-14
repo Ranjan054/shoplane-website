@@ -250,8 +250,42 @@ footer > .footer-details-wrapper:first-of-type {
 
 
 @media (max-width: 400px) {
-.card-wrapper {
-  width: 165px;
-  height: 380px;
-}
+  #logo{
+    font-size: 2rem;
+  }
+
+  #nav-bar {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  #header-clothe, #header-access, #header-search-wrapper {
+    display: none;
+  }
+
+  .card-wrapper {
+    width: 170px;
+    height: 390px;
+    margin: 30px 7px;
+    }
+
+  #footer {
+    /* flex-direction: column; */
+    justify-content: space-between;
+    padding: 30px;
+  }
+
+  .footer-details-wrapper {
+    padding: 25px 0;
+  }
+
+  #project-logo {
+    width: 100px;
+    bottom: 10px;
+    right: 5px;
+  }
+
+  #carousel-section {
+    display: none;
+  }
 }
