@@ -92,3 +92,18 @@
     color: rgba(0, 0, 0, 0.8);
     color: white;
 }
+
+@media (max-width: 400px) {
+  #content-wrapper {
+    display: block;
+  }
+
+  #content-wrapper > div:first-of-type {
+    width: 100%;
+  }
+
+  #content-wrapper > div:last-of-type {
+    width: 100%;
+    margin-left: 0;
+  }
+}
