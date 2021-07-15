@@ -270,8 +270,8 @@ footer > .footer-details-wrapper:first-of-type {
     }
 
   #footer {
-    /* flex-direction: column; */
     justify-content: space-between;
+    flex-wrap: wrap;
     padding: 30px;
   }
 
