@@ -55,3 +55,15 @@
     margin: 0;
     margin-bottom: 16px;
 }
+
+@media (max-width: 400px) {
+  .main-heading,
+  .section-heading {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .section-heading {
+    padding-bottom: 50px;
+  }
+}
